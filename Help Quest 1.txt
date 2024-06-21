@@ -14,8 +14,8 @@ wait(.3)
 end
 function help12()
     	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Auto Quest 1 BLK_Galaxy";
-		Text = "is just a test /:";
+		Title = "AutoQuest BETA BLK_Galaxy";
+		Text = "Taking Heaven Quest 1";
 	})
 end
 local Player = game.Players.LocalPlayer
@@ -25,3 +25,52 @@ Player.Chatted:connect(function(cht)
 		help1()
 	end
 end)
+
+function help2()
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs["help2"])
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"Ye"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+end
+function help22()
+    	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "AutoQuest BETA BLK_Galaxy";
+		Text = "Taking Heaven Quest 2";
+	})
+end
+local Player = game.Players.LocalPlayer
+Player.Chatted:connect(function(cht)
+	if cht:match(prefix.."help2") or cht:match(prefix.."hq2") then
+		help22()
+		help2()
+	end
+end)
+
+function help3()
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs["help3"])
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"Ye"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+end
+function help32()
+    	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "AutoQuest BETA BLK_Galaxy";
+		Text = "Taking Heaven Quest 3";
+	})
+end
