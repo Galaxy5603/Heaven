@@ -1,5 +1,5 @@
-function help2()
-game.Players.LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs["help2"])
+function help3()
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs["help3"])
 wait(.3)
 game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
 wait(.3)
@@ -12,16 +12,9 @@ wait(.3)
 game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
 wait(.3)
 end
-function help22()
+function help32()
     	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "AutoQuest BETA BLK_Galaxy";
-		Text = "Taking Heaven Quest 2";
+		Text = "Taking Heaven Quest 3";
 	})
 end
-local Player = game.Players.LocalPlayer
-Player.Chatted:connect(function(cht)
-	if cht:match(prefix.."help2") or cht:match(prefix.."hq2") then
-		help22()
-		help2()
-	end
-end)
