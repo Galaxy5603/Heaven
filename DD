@@ -1,0 +1,20 @@
+function help3()
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs["help3"])
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"Ye"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+end
+function help32()
+    	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "AutoQuest BETA BLK_Galaxy";
+		Text = "Taking Heaven Quest 3";
+	})
+end
