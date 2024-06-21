@@ -1,0 +1,27 @@
+function help1()
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(workspace.FriendlyNPCs["help"])
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"Ye"})
+wait(.3)
+game.Players.LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer({"k"})
+wait(.3)
+end
+function help12()
+    	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "System IIIevanIII00";
+		Text = "Taking Heaven Quest 1";
+	})
+end
+local Player = game.Players.LocalPlayer
+Player.Chatted:connect(function(cht)
+	if cht:match(prefix.."help1") or cht:match(prefix.."hq1") then
+		help12()
+		help1()
+	end
+end)
