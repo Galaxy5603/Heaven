@@ -14,8 +14,8 @@ wait(.3)
 end
 function help12()
     	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "System IIIevanIII00";
-		Text = "Taking Heaven Quest 1";
+		Title = "Auto Quest 1 BLK_Galaxy";
+		Text = "is just a test /:";
 	})
 end
 local Player = game.Players.LocalPlayer
